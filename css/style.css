@@ -1,0 +1,154 @@
+html {
+    font-size: 62.5%;
+    /*Reset para REMS - 62.5% = 10px de 16px*/
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 3.8rem;
+}
+
+h2 {
+    font-size: 3.4rem;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+h4 {
+    font-size: 2.6rem;
+}
+
+.site-header {
+    background-color: #333333;
+    padding: 1rem 0 3rem;
+}
+
+.site-header.inicio {
+    background-image: url(../img/header.png);
+    background-position: center center;
+    background-size: cover;
+    height: 15vh;
+    min-height: 10rem;
+}
+
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.contenido-header {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.navegacion a {
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    margin-right: 2rem;
+}
+
+.navegacion a:hover {
+    color: black;
+}
+
+.iconos-nosotros {
+    display: flex;
+    justify-content: space-between;
+}
+
+.barra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 3rem;
+}
+
+
+/*utilidades*/
+
+.fw-300 {
+    font-weight: 300;
+}
+
+.centrar-texto {
+    text-align: center;
+}
+
+.seccion {
+    margin-top: 2rem;
+    /* margin-bottom: 2rem;   */
+}
+
+.contenido-centrado {
+    max-width: 800px;
+}
+
+.entrada-blog {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.entrada-blog .texto-entrada {
+    flex-basis: calc(60% - 3rem);
+}
+
+.entrada-blog .texto-entrada {
+    flex-basis: calc(60% - 3rem);
+}
+
+.texto-entrada a {
+    color: black;
+    text-decoration: none;
+}
+
+.texto-entrada h4 {
+    margin: 0;
+    line-height: 1.4;
+}
+
+.texto-entrada h4::after {
+    content: '';
+    display: block;
+    width: 15rem;
+    height: .5rem;
+    margin-top: 1rem;
+}
+
+.texto-entrada span {
+    color: darkgoldenrod;
+}
+
+.objetfit>img {
+    width: 200px;
+    height: 200px;
+    object-fit: none;
+}
+
+.div-padre img {
+    height: 250px;
+    width: 300px;
+}
+
+.div-acerca img {
+    height: 300px;
+    width: 590px;
+}
+
+.contenido-acerca {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 2rem;
+}
+
+.texto-nosotros blockquote {
+    font-weight: 900;
+    font-size: 2rem;
+    margin: 0;
+    padding: 0 0 3rem 0;
+}
